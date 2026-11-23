@@ -54,3 +54,21 @@ GitHub Pages serves the frontend; Firebase Auth and Firestore handle the online 
 ## Word content
 
 Edit `words.json` to add words, hints, and meanings. The game uses a saved meaning when present and otherwise requests a definition from the Free Dictionary API after the answer. Pronunciation uses the browser's built-in speech synthesis.
+
+
+## NO need here several files like server.py in this firebase project
+This project only needs a static file server:
+That command serves the existing HTML, CSS, JavaScript, JSON, and Firebase configuration files directly in the browser. It does not replace Firebase or add a Django/Python backend.
+
+The data architecture is also different:
+
+- Firebase handles authentication, database/storage, security rules, hosting, or APIs.
+- Browser JavaScript communicates with Firebase through the Firebase SDK.
+- A local HTTP server only makes those frontend files reachable in the browser.
+
+A server.py or custom Django server becomes necessary when you need server-side logic, a database accessed privately, login secrets, scheduled jobs, or a custom API.
+
+The previous project likely had server-side responsibilities that this project does not. In this project, simpler is preferable: extra backend files would add deployment work, duplicate Firebase functionality, and expose unnecessary infrastructure.
+
+One important detail: python3 -m http.server is not a production server. It is mainly for local testing. For production, Firebase Hosting or a proper static host can serve the frontend.
+
