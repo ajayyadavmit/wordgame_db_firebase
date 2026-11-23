@@ -146,6 +146,7 @@ function ask() {
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
   $("vocabulary").hidden = true;
   $("pronunciation-info").textContent = "";
+  $("player-nick").textContent = nick;
   const item = game.items[game.i];
   const q = game.q = makeQuestion(item.w, CFG.difficulties[game.level].blanks); game.locked = false;
   $("round").textContent = `Word ${game.i + 1} of ${game.items.length}`;
