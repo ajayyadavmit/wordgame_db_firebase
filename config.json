@@ -1,0 +1,30 @@
+{
+  "title": "Word Fix: Cognitive Thinking",
+  "rounds": 10,
+  "questionTimeSeconds": 10,
+  "timerBlinkLastSeconds": 7,
+  "pointsRight": 3,
+  "pointsWrong": -2,
+  "optionsPerQuestion": 6,
+  "wordLength": { "min": 4, "max": 14 },
+  "difficulties": {
+    "simple": { "label": "Simple", "blanks": 1 },
+    "medium": { "label": "Medium", "blanks": 2 },
+    "hard":   { "label": "Hard",   "blanks": 4 }
+  },
+  "defaultDifficulty": "simple",
+  "leaderboard": { "showTop": 10, "storeLimitPerLevel": 100 },
+  "nicknames": {
+    "suggestionsShown": 4,
+"adjectives": [
+  "Brave", "Clever", "Swift", "Happy", "Mighty", "Sunny", "Calm", "Lucky", "Bold", "Cosmic",
+  "Gentle", "Jolly", "Noble", "Quick", "Witty", "Bright", "Fierce", "Loyal", "Nimble", "Proud",
+  "Quiet", "Sharp", "Silent", "Steady", "Vivid", "Wise", "Zesty", "Agile", "Daring", "Radiant"
+],
+"animals": [
+  "Tiger", "Panda", "Falcon", "Otter", "Yak", "Dolphin", "Fox", "Eagle", "Koala", "Lynx",
+  "Wolf", "Hawk", "Bear", "Owl", "Lion", "Cheetah", "Badger", "Raven", "Whale", "Zebra",
+  "Jaguar", "Lemur", "Moose", "Penguin", "Rabbit", "Shark", "Turtle", "Bison", "Crane", "Gazelle"
+]
+  }
+}

@@ -1,0 +1,19 @@
+.DS_Store
+.firebase/
+.DS_Store
+.firebase/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase Admin/service-account credentials (never publish these)
+serviceAccountKey.json
+firebase-adminsdk*.json
+*-firebase-adminsdk-*.json
+*.pem
+*.key
+
+# Firebase CLI logs
+firebase-debug.log

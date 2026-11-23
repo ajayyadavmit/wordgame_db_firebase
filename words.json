@@ -1,0 +1,1322 @@
+{
+  "general": [
+    {
+      "word": "APPLE",
+      "hint": "A round fruit, often red or green"
+    },
+    {
+      "word": "ORANGE",
+      "hint": "A round citrus fruit with a bright peel"
+    },
+    {
+      "word": "BANANA",
+      "hint": "A long, curved yellow fruit"
+    },
+    {
+      "word": "GARDEN",
+      "hint": "An outdoor space where plants and flowers grow"
+    },
+    {
+      "word": "WINDOW",
+      "hint": "A glass opening in a wall to let in light and air"
+    },
+    {
+      "word": "PENCIL",
+      "hint": "A wooden tool with graphite used for writing or drawing"
+    },
+    {
+      "word": "SCHOOL",
+      "hint": "A place where students go to learn"
+    },
+    {
+      "word": "FRIEND",
+      "hint": "Someone you trust, enjoy spending time with, and care about"
+    },
+    {
+      "word": "BRIDGE",
+      "hint": "A structure built to cross over water, roads, or valleys"
+    },
+    {
+      "word": "MARKET",
+      "hint": "A place where people gather to buy and sell goods"
+    },
+    {
+      "word": "FLOWER",
+      "hint": "The colorful, blooming part of a plant"
+    },
+    {
+      "word": "ANIMAL",
+      "hint": "A living creature that can move and breathe, other than a human"
+    },
+    {
+      "word": "SUMMER",
+      "hint": "The warmest season of the year"
+    },
+    {
+      "word": "KITCHEN",
+      "hint": "The room in a home where meals are prepared and cooked"
+    },
+    {
+      "word": "MOUNTAIN",
+      "hint": "A very high, rocky landform rising above the surrounding land"
+    }
+  ],
+  "science": [
+    {
+      "word": "PLANET",
+      "hint": "A large celestial body orbiting a star"
+    },
+    {
+      "word": "GRAVITY",
+      "hint": "The force that pulls objects toward one another"
+    },
+    {
+      "word": "ENERGY",
+      "hint": "The capacity to do work or cause change"
+    },
+    {
+      "word": "OXYGEN",
+      "hint": "A colorless gas essential for respiration"
+    },
+    {
+      "word": "MAGNET",
+      "hint": "An object that attracts iron and other magnetic materials"
+    },
+    {
+      "word": "VOLCANO",
+      "hint": "An opening in Earth's crust where magma or ash erupts"
+    },
+    {
+      "word": "MOLECULE",
+      "hint": "Two or more atoms bonded together"
+    },
+    {
+      "word": "ELECTRON",
+      "hint": "A negatively charged subatomic particle"
+    },
+    {
+      "word": "CLIMATE",
+      "hint": "Long-term weather patterns of a region"
+    },
+    {
+      "word": "FOSSIL",
+      "hint": "Preserved remains or traces of ancient life"
+    },
+    {
+      "word": "ECOSYSTEM",
+      "hint": "A community of living things interacting with their environment"
+    },
+    {
+      "word": "BACTERIA",
+      "hint": "Single-celled microorganisms found almost everywhere"
+    },
+    {
+      "word": "ATMOSPHERE",
+      "hint": "The layer of gases surrounding a planet"
+    },
+    {
+      "word": "EVAPORATION",
+      "hint": "Process where liquid turns into vapor or gas"
+    }
+  ],
+  "language": [
+    {
+      "word": "SENTENCE",
+      "hint": "A complete grammatical unit expressing a thought"
+    },
+    {
+      "word": "VERB",
+      "hint": "A word that expresses an action, occurrence, or state"
+    },
+    {
+      "word": "NOUN",
+      "hint": "A word that names a person, place, thing, or idea"
+    },
+    {
+      "word": "ADJECTIVE",
+      "hint": "A word that describes or modifies a noun"
+    },
+    {
+      "word": "PARAGRAPH",
+      "hint": "A distinct section of writing dealing with one main idea"
+    },
+    {
+      "word": "SYNONYM",
+      "hint": "A word with the same or nearly the same meaning as another"
+    },
+    {
+      "word": "ANTONYM",
+      "hint": "A word with the opposite meaning of another"
+    },
+    {
+      "word": "VOCABULARY",
+      "hint": "The set of words known and used in a language or by a person"
+    },
+    {
+      "word": "PUNCTUATION",
+      "hint": "Marks like periods and commas that clarify meaning in writing"
+    },
+    {
+      "word": "ALPHABET",
+      "hint": "A standard set of letters used to write a language"
+    },
+    {
+      "word": "GRAMMAR",
+      "hint": "The system of rules governing how words form sentences"
+    },
+    {
+      "word": "PRONOUN",
+      "hint": "A word used in place of a noun, such as 'they' or 'it'"
+    },
+    {
+      "word": "METAPHOR",
+      "hint": "A figure of speech comparing two things without 'like' or 'as'"
+    },
+    {
+      "word": "SPELLING",
+      "hint": "The accepted arrangement of letters that form a word"
+    }
+  ],
+  "history": [
+    {
+      "word": "ANCIENT",
+      "hint": "Belonging to the very distant past"
+    },
+    {
+      "word": "EMPIRE",
+      "hint": "A large group of territories ruled by a single authority"
+    },
+    {
+      "word": "KINGDOM",
+      "hint": "A territory or state ruled by a king or queen"
+    },
+    {
+      "word": "REVOLUTION",
+      "hint": "A rapid, major change in government or society"
+    },
+    {
+      "word": "MONARCHY",
+      "hint": "A system of government led by a hereditary ruler"
+    },
+    {
+      "word": "PYRAMID",
+      "hint": "A monumental structure with triangular sides meeting at a point"
+    },
+    {
+      "word": "DYNASTY",
+      "hint": "A succession of rulers from the same family line"
+    },
+    {
+      "word": "CIVILIZATION",
+      "hint": "A complex human society with cities, culture, and institutions"
+    },
+    {
+      "word": "ARCHAEOLOGY",
+      "hint": "Study of past human life through physical artifacts"
+    },
+    {
+      "word": "TREATY",
+      "hint": "A formal agreement signed between states or nations"
+    },
+    {
+      "word": "REPUBLIC",
+      "hint": "A state where supreme power rests with citizens and elected leaders"
+    },
+    {
+      "word": "DEMOCRACY",
+      "hint": "A system of government by the people, often via representation"
+    },
+    {
+      "word": "EXPLORER",
+      "hint": "Someone who travels into unfamiliar regions to discover or map them"
+    },
+    {
+      "word": "MEDIEVAL",
+      "hint": "Relating to the Middle Ages in European history"
+    }
+  ],
+  "computer": [
+    {
+      "word": "PROCESSOR",
+      "hint": "The main chip that executes instructions in a computer"
+    },
+    {
+      "word": "MEMORY",
+      "hint": "Hardware or space used to store data and active instructions"
+    },
+    {
+      "word": "HARDWARE",
+      "hint": "The physical components of a computer system"
+    },
+    {
+      "word": "SOFTWARE",
+      "hint": "Programs and data that tell a computer what to do"
+    },
+    {
+      "word": "NETWORK",
+      "hint": "Interconnected devices that share data and resources"
+    },
+    {
+      "word": "DATABASE",
+      "hint": "Structured collection of data organized for easy access"
+    },
+    {
+      "word": "BROWSER",
+      "hint": "Software used to view websites on the internet"
+    },
+    {
+      "word": "KEYBOARD",
+      "hint": "Input device with keys for typing letters and commands"
+    },
+    {
+      "word": "FIREWALL",
+      "hint": "Security system that monitors and filters network traffic"
+    },
+    {
+      "word": "TERMINAL",
+      "hint": "Text-based interface for entering commands into a system"
+    },
+    {
+      "word": "MOTHERBOARD",
+      "hint": "Main circuit board connecting core computer components"
+    },
+    {
+      "word": "MONITOR",
+      "hint": "Display screen that shows visual output from a computer"
+    },
+    {
+      "word": "STORAGE",
+      "hint": "Medium that retains data even when power is off"
+    },
+    {
+      "word": "BANDWIDTH",
+      "hint": "Maximum rate of data transfer over a connection"
+    },
+    {
+      "word": "ETHERNET",
+      "hint": "Common wired networking technology for local connections"
+    },
+    {
+      "word": "FIRMWARE",
+      "hint": "Low-level software stored permanently on hardware"
+    },
+    {
+      "word": "CACHE",
+      "hint": "High-speed memory that stores frequently used data for quick access"
+    },
+    {
+      "word": "KERNEL",
+      "hint": "Core component of an operating system managing hardware resources"
+    },
+    {
+      "word": "BINARY",
+      "hint": "Base-two number system using only ones and zeros"
+    },
+    {
+      "word": "BYTE",
+      "hint": "Unit of digital information usually made of eight bits"
+    },
+    {
+      "word": "PIXEL",
+      "hint": "Smallest addressable dot in a digital image or display"
+    },
+    {
+      "word": "RESOLUTION",
+      "hint": "Number of pixels or level of detail in a display or image"
+    },
+    {
+      "word": "ROUTER",
+      "hint": "Device that forwards data packets between computer networks"
+    },
+    {
+      "word": "MODEM",
+      "hint": "Device that modulates and demodulates signals for network access"
+    },
+    {
+      "word": "SERVER",
+      "hint": "System or program that provides services or data to clients"
+    },
+    {
+      "word": "CLIENT",
+      "hint": "Device or program that requests services from a server"
+    },
+    {
+      "word": "LAPTOP",
+      "hint": "Portable personal computer designed for mobile use"
+    },
+    {
+      "word": "DESKTOP",
+      "hint": "Personal computer set up for stationary use on a desk"
+    },
+    {
+      "word": "PERIPHERAL",
+      "hint": "External device connected to a computer, like a mouse or scanner"
+    },
+    {
+      "word": "SCANNER",
+      "hint": "Device that converts physical documents or images into digital files"
+    },
+    {
+      "word": "PRINTER",
+      "hint": "Device that produces physical copies of digital documents"
+    },
+    {
+      "word": "MICROCHIP",
+      "hint": "Miniaturized integrated circuit built on semiconductor material"
+    },
+    {
+      "word": "SILICON",
+      "hint": "Semiconductor element widely used to make computer chips"
+    },
+    {
+      "word": "CIRCUIT",
+      "hint": "Closed path through which electric current can flow"
+    },
+    {
+      "word": "TRANSISTOR",
+      "hint": "Semiconductor switch or amplifier forming digital logic"
+    },
+    {
+      "word": "HARDDRIVE",
+      "hint": "Magnetic storage device used to hold large amounts of data"
+    },
+    {
+      "word": "MAINFRAME",
+      "hint": "Large, high-reliability computer used for heavy enterprise processing"
+    },
+    {
+      "word": "WORKSTATION",
+      "hint": "High-performance computer built for technical or creative tasks"
+    },
+    {
+      "word": "OPERATING",
+      "hint": "Relating to system software that runs and manages a computer"
+    },
+    {
+      "word": "SYSTEM",
+      "hint": "Organized set of interacting components working together"
+    },
+    {
+      "word": "CLIPBOARD",
+      "hint": "Temporary storage area for cut or copied data"
+    },
+    {
+      "word": "CURSOR",
+      "hint": "On-screen indicator showing where input or selection occurs"
+    },
+    {
+      "word": "DIRECTORY",
+      "hint": "Container or folder structure used to organize files"
+    },
+    {
+      "word": "FOLDER",
+      "hint": "Virtual container that groups files and subfolders together"
+    },
+    {
+      "word": "BACKUP",
+      "hint": "Extra copy of data kept in case the original is lost or damaged"
+    },
+    {
+      "word": "ARCHIVE",
+      "hint": "Compressed or long-term collection of stored files"
+    },
+    {
+      "word": "DRIVER",
+      "hint": "Software that lets the operating system communicate with hardware"
+    },
+    {
+      "word": "BIOS",
+      "hint": "Firmware that initializes hardware during computer startup"
+    },
+    {
+      "word": "PORT",
+      "hint": "Physical connector or numbered network endpoint for communication"
+    },
+    {
+      "word": "GATEWAY",
+      "hint": "Node that connects two networks using different protocols"
+    }
+  ],
+  "programming": [
+    {
+      "word": "ALGORITHM",
+      "hint": "Step-by-step procedure for solving a problem or computation"
+    },
+    {
+      "word": "VARIABLE",
+      "hint": "Named storage location whose value can change during execution"
+    },
+    {
+      "word": "FUNCTION",
+      "hint": "Reusable block of code that performs a specific task"
+    },
+    {
+      "word": "COMPILER",
+      "hint": "Translator that converts source code into executable code before running"
+    },
+    {
+      "word": "DEBUGGING",
+      "hint": "Process of finding and fixing errors or bugs in code"
+    },
+    {
+      "word": "ITERATION",
+      "hint": "Single pass through a loop or repeated process"
+    },
+    {
+      "word": "BOOLEAN",
+      "hint": "Data type with only two possible values: true or false"
+    },
+    {
+      "word": "ARRAY",
+      "hint": "Ordered collection of elements accessed by index"
+    },
+    {
+      "word": "SYNTAX",
+      "hint": "Rules defining valid structure and grammar of a programming language"
+    },
+    {
+      "word": "RECURSION",
+      "hint": "Technique where a function calls itself to solve smaller subproblems"
+    },
+    {
+      "word": "INTEGER",
+      "hint": "Whole number data type without fractional components"
+    },
+    {
+      "word": "STRING",
+      "hint": "Sequence of characters representing text"
+    },
+    {
+      "word": "FLOAT",
+      "hint": "Numeric data type used to represent decimal or fractional numbers"
+    },
+    {
+      "word": "CHARACTER",
+      "hint": "Single letter, digit, symbol, or whitespace unit"
+    },
+    {
+      "word": "CONSTANT",
+      "hint": "Value or identifier that does not change after assignment"
+    },
+    {
+      "word": "OPERATOR",
+      "hint": "Symbol that performs an operation on values or variables"
+    },
+    {
+      "word": "EXPRESSION",
+      "hint": "Combination of values and operators that evaluates to a result"
+    },
+    {
+      "word": "STATEMENT",
+      "hint": "Single instruction or command executed by a program"
+    },
+    {
+      "word": "CONDITION",
+      "hint": "Boolean test that decides which branch of code runs next"
+    },
+    {
+      "word": "LOOP",
+      "hint": "Control structure that repeats instructions while a condition holds"
+    },
+    {
+      "word": "OBJECT",
+      "hint": "Instance bundling data (fields) and behavior (methods)"
+    },
+    {
+      "word": "CLASS",
+      "hint": "Blueprint or template used to create objects"
+    },
+    {
+      "word": "METHOD",
+      "hint": "Function defined inside a class or associated with an object"
+    },
+    {
+      "word": "ATTRIBUTE",
+      "hint": "Data property or field belonging to an object or element"
+    },
+    {
+      "word": "INHERITANCE",
+      "hint": "Mechanism where one class acquires properties from another"
+    },
+    {
+      "word": "POLYMORPHISM",
+      "hint": "Ability for different types to respond to the same interface differently"
+    },
+    {
+      "word": "ENCAPSULATION",
+      "hint": "Bundling data and methods while restricting direct internal access"
+    },
+    {
+      "word": "ABSTRACTION",
+      "hint": "Hiding complex details and exposing only essential features"
+    },
+    {
+      "word": "INTERFACE",
+      "hint": "Contract specifying methods or properties a type must provide"
+    },
+    {
+      "word": "MODULE",
+      "hint": "Self-contained file or unit of code that can be imported"
+    },
+    {
+      "word": "PACKAGE",
+      "hint": "Bundled collection of modules distributed together"
+    },
+    {
+      "word": "LIBRARY",
+      "hint": "Collection of prewritten code your program can call for functionality"
+    },
+    {
+      "word": "FRAMEWORK",
+      "hint": "Reusable structure that guides and shapes how an application is built"
+    },
+    {
+      "word": "RUNTIME",
+      "hint": "Environment or phase in which a program is actively executing"
+    },
+    {
+      "word": "INTERPRETER",
+      "hint": "Program that executes code directly line by line or statement by statement"
+    },
+    {
+      "word": "BYTECODE",
+      "hint": "Low-level intermediate code executed by a virtual machine"
+    },
+    {
+      "word": "POINTER",
+      "hint": "Variable that stores the memory address of another value"
+    },
+    {
+      "word": "REFERENCE",
+      "hint": "Alias or handle pointing to an existing object or value in memory"
+    },
+    {
+      "word": "EXCEPTION",
+      "hint": "Unexpected event or error raised during program execution"
+    },
+    {
+      "word": "THREAD",
+      "hint": "Smallest sequence of programmed instructions scheduled independently"
+    },
+    {
+      "word": "CONCURRENCY",
+      "hint": "Structuring tasks so multiple operations make overlapping progress"
+    },
+    {
+      "word": "ASYNCHRONOUS",
+      "hint": "Executing tasks without blocking the main flow while waiting"
+    },
+    {
+      "word": "CALLBACK",
+      "hint": "Function passed to another function to run after an event or task"
+    },
+    {
+      "word": "CLOSURE",
+      "hint": "Function that remembers variables from its lexical scope"
+    },
+    {
+      "word": "PARAMETER",
+      "hint": "Variable listed in a function definition to receive input"
+    },
+    {
+      "word": "ARGUMENT",
+      "hint": "Actual value passed into a function when calling it"
+    },
+    {
+      "word": "RETURN",
+      "hint": "Statement that exits a function and sends a value back to the caller"
+    },
+    {
+      "word": "SCRIPT",
+      "hint": "Program or set of commands often run to automate tasks"
+    },
+    {
+      "word": "REPOSITORY",
+      "hint": "Storage location tracking project files and version history"
+    },
+    {
+      "word": "COMMIT",
+      "hint": "Saved snapshot of changes recorded in version control"
+    }
+  ],
+  "k12_education": [
+    {
+      "word": "CURRICULUM",
+      "hint": "Planned set of subjects, content, and learning goals for a course"
+    },
+    {
+      "word": "ASSESSMENT",
+      "hint": "Process of gathering evidence to measure student learning"
+    },
+    {
+      "word": "LITERACY",
+      "hint": "Ability to read, write, and make meaning from texts"
+    },
+    {
+      "word": "CLASSROOM",
+      "hint": "Learning space where teachers and students meet for instruction"
+    },
+    {
+      "word": "SYLLABUS",
+      "hint": "Outline of topics, schedule, and expectations for a class"
+    },
+    {
+      "word": "MENTORSHIP",
+      "hint": "Guidance and support from an experienced person to a learner"
+    },
+    {
+      "word": "HOMEWORK",
+      "hint": "School assignments completed outside regular class hours"
+    },
+    {
+      "word": "TEXTBOOK",
+      "hint": "Structured book covering a subject for study and reference"
+    },
+    {
+      "word": "GRADEBOOK",
+      "hint": "Record used by teachers to track scores, assignments, and grades"
+    },
+    {
+      "word": "SCHOLARSHIP",
+      "hint": "Financial award supporting a student's education"
+    },
+    {
+      "word": "PEDAGOGY",
+      "hint": "Methods and practice of teaching and instruction"
+    },
+    {
+      "word": "STANDARDS",
+      "hint": "Clear statements of what students should know and be able to do"
+    },
+    {
+      "word": "BENCHMARK",
+      "hint": "Reference point or milestone used to compare performance"
+    },
+    {
+      "word": "RUBRIC",
+      "hint": "Scoring guide defining criteria and levels of quality"
+    },
+    {
+      "word": "EVALUATION",
+      "hint": "Judgment of overall effectiveness, quality, or achievement"
+    },
+    {
+      "word": "FORMATIVE",
+      "hint": "Ongoing check for understanding used to guide learning as it happens"
+    },
+    {
+      "word": "SUMMATIVE",
+      "hint": "Assessment at the end of a unit or term to judge overall learning"
+    },
+    {
+      "word": "DIAGNOSTIC",
+      "hint": "Initial check used to identify strengths and learning gaps early"
+    },
+    {
+      "word": "REMEDIATION",
+      "hint": "Targeted support to help learners catch up on missed concepts"
+    },
+    {
+      "word": "ENRICHMENT",
+      "hint": "Deeper or broader activities extending learning for students"
+    },
+    {
+      "word": "INCLUSION",
+      "hint": "Ensuring all learners participate meaningfully in shared environments"
+    },
+    {
+      "word": "DIVERSITY",
+      "hint": "Variety of backgrounds, cultures, identities, and perspectives"
+    },
+    {
+      "word": "EQUITY",
+      "hint": "Providing fair resources and support tailored to each learner's needs"
+    },
+    {
+      "word": "DIFFERENTIATION",
+      "hint": "Adapting instruction, content, or tasks for varied learner needs"
+    },
+    {
+      "word": "ACCOMMODATION",
+      "hint": "Adjustment to how a student learns or is tested without lowering goals"
+    },
+    {
+      "word": "INTERVENTION",
+      "hint": "Structured support step taken to address a learning or behavior need"
+    },
+    {
+      "word": "ATTENDANCE",
+      "hint": "Record or presence of students at school or class"
+    },
+    {
+      "word": "ENROLLMENT",
+      "hint": "Official registration of students in a school or program"
+    },
+    {
+      "word": "GRADUATION",
+      "hint": "Completion of a school program and receipt of a diploma or degree"
+    },
+    {
+      "word": "DIPLOMA",
+      "hint": "Official certificate awarded for completing a school program"
+    },
+    {
+      "word": "TRANSCRIPT",
+      "hint": "Official record of a student's courses and grades over time"
+    },
+    {
+      "word": "COUNSELING",
+      "hint": "Support helping students with academic, personal, or career choices"
+    },
+    {
+      "word": "ADVISORY",
+      "hint": "Small-group or one-on-one mentoring period in schools"
+    },
+    {
+      "word": "PRINCIPAL",
+      "hint": "School leader responsible for daily operations and instructional leadership"
+    },
+    {
+      "word": "SUPERINTENDENT",
+      "hint": "Senior administrator overseeing a school district or system"
+    },
+    {
+      "word": "FACULTY",
+      "hint": "Group of teachers and instructional staff at an institution"
+    },
+    {
+      "word": "STUDENT",
+      "hint": "Person enrolled in a school or course to learn"
+    },
+    {
+      "word": "LEARNER",
+      "hint": "Anyone actively acquiring knowledge, skills, or understanding"
+    },
+    {
+      "word": "KINDERGARTEN",
+      "hint": "Early childhood school year typically right before first grade"
+    },
+    {
+      "word": "ELEMENTARY",
+      "hint": "Early primary stage of formal schooling"
+    },
+    {
+      "word": "MIDDLE",
+      "hint": "Intermediate school stage bridging elementary and high school"
+    },
+    {
+      "word": "SECONDARY",
+      "hint": "Upper school stage, such as junior high or high school"
+    },
+    {
+      "word": "VOCATIONAL",
+      "hint": "Focused on practical skills and preparation for specific trades"
+    },
+    {
+      "word": "EXTRACURRICULAR",
+      "hint": "School clubs, sports, or activities outside regular classes"
+    },
+    {
+      "word": "ASSEMBLY",
+      "hint": "Gathering of students and staff for announcements or events"
+    },
+    {
+      "word": "FIELDTRIP",
+      "hint": "Educational outing taking students outside the school building"
+    },
+    {
+      "word": "LABORATORY",
+      "hint": "Dedicated space for hands-on experiments and investigation"
+    },
+    {
+      "word": "LIBRARY",
+      "hint": "Collection of books and resources organized for reading and research"
+    },
+    {
+      "word": "CAFETERIA",
+      "hint": "School dining area where meals are served"
+    },
+    {
+      "word": "PLAYGROUND",
+      "hint": "Outdoor area equipped for children's active play and recess"
+    }
+  ],
+  "digital_pedagogy": [
+    {
+      "word": "SCAFFOLDING",
+      "hint": "Temporary instructional support gradually removed as learners gain skill"
+    },
+    {
+      "word": "GAMIFICATION",
+      "hint": "Using game elements like points or challenges to motivate learning"
+    },
+    {
+      "word": "SIMULATION",
+      "hint": "Interactive model imitating a real system for safe experimentation"
+    },
+    {
+      "word": "INTERACTIVE",
+      "hint": "Responding to user input rather than just presenting static content"
+    },
+    {
+      "word": "BLENDED",
+      "hint": "Combining in-person teaching with online learning activities"
+    },
+    {
+      "word": "FEEDBACK",
+      "hint": "Information given to learners to help improve their work"
+    },
+    {
+      "word": "COLLABORATION",
+      "hint": "Working together with peers to build knowledge or complete tasks"
+    },
+    {
+      "word": "PORTFOLIO",
+      "hint": "Curated collection of work showing growth and learning over time"
+    },
+    {
+      "word": "MULTIMEDIA",
+      "hint": "Using more than one medium, such as text, audio, and video"
+    },
+    {
+      "word": "ACCESSIBILITY",
+      "hint": "Designing digital tools and content usable by people with disabilities"
+    },
+    {
+      "word": "ELEARNING",
+      "hint": "Learning delivered electronically, typically over digital networks"
+    },
+    {
+      "word": "SYNCHRONOUS",
+      "hint": "Learning happening in real time with participants together"
+    },
+    {
+      "word": "ASYNCHRONOUS",
+      "hint": "Learning happening on each person's own schedule rather than live"
+    },
+    {
+      "word": "HYBRID",
+      "hint": "Instructional setup blending remote and on-site participation"
+    },
+    {
+      "word": "FLIPPED",
+      "hint": "Model where students study new material first and practice in class"
+    },
+    {
+      "word": "MICROCOPY",
+      "hint": "Short, helpful UI labels, prompts, or guidance text"
+    },
+    {
+      "word": "MICROLEARNING",
+      "hint": "Bite-sized learning modules focused on a single objective"
+    },
+    {
+      "word": "ADAPTIVE",
+      "hint": "Adjusting difficulty or content based on a learner's responses"
+    },
+    {
+      "word": "PERSONALIZED",
+      "hint": "Tailored to an individual learner's pace, interests, or needs"
+    },
+    {
+      "word": "COMPETENCY",
+      "hint": "Demonstrated ability to apply knowledge and skills effectively"
+    },
+    {
+      "word": "MASTERY",
+      "hint": "Thorough command of a topic before moving forward"
+    },
+    {
+      "word": "BADGING",
+      "hint": "Awarding digital badges to recognize specific skills or milestones"
+    },
+    {
+      "word": "CREDENTIAL",
+      "hint": "Verified proof of a qualification, skill, or completion"
+    },
+    {
+      "word": "WEBINAR",
+      "hint": "Live online seminar or workshop often involving interaction"
+    },
+    {
+      "word": "PODCAST",
+      "hint": "Episodic audio program available for streaming or download"
+    },
+    {
+      "word": "SCREENCAST",
+      "hint": "Video recording of a computer screen often paired with narration"
+    },
+    {
+      "word": "ANNOTATION",
+      "hint": "Adding notes, highlights, or comments to digital text or media"
+    },
+    {
+      "word": "WHITEBOARD",
+      "hint": "Shared digital or physical canvas for sketching and brainstorming"
+    },
+    {
+      "word": "BREAKOUT",
+      "hint": "Smaller subgroup room or session for focused discussion"
+    },
+    {
+      "word": "ENGAGEMENT",
+      "hint": "Active attention, curiosity, and involvement in learning"
+    },
+    {
+      "word": "AUTONOMY",
+      "hint": "Learner's ability to make choices and self-direct their learning"
+    },
+    {
+      "word": "AGENCY",
+      "hint": "Sense of initiative and ownership over one's learning actions"
+    },
+    {
+      "word": "METACOGNITION",
+      "hint": "Thinking about one's own thinking and learning strategies"
+    },
+    {
+      "word": "REFLECTION",
+      "hint": "Looking back on experiences to extract lessons and meaning"
+    },
+    {
+      "word": "INQUIRY",
+      "hint": "Learning driven by asking questions, investigating, and exploring"
+    },
+    {
+      "word": "CONSTRUCTIVISM",
+      "hint": "Theory that learners actively build understanding from experience"
+    },
+    {
+      "word": "CONNECTIVISM",
+      "hint": "View of learning as forming connections across networks and sources"
+    },
+    {
+      "word": "MULTIMODAL",
+      "hint": "Combining multiple modes like visual, textual, spatial, or audio"
+    },
+    {
+      "word": "STORYTELLING",
+      "hint": "Conveying ideas or lessons through narrative and character"
+    },
+    {
+      "word": "CURATION",
+      "hint": "Selecting, organizing, and contextualizing relevant resources"
+    },
+    {
+      "word": "LITERACY",
+      "hint": "Competence in reading, interpreting, or navigating a medium"
+    },
+    {
+      "word": "CITIZENSHIP",
+      "hint": "Responsible, ethical participation in digital communities"
+    },
+    {
+      "word": "ETHICS",
+      "hint": "Moral principles guiding fair and responsible technology use"
+    },
+    {
+      "word": "PRIVACY",
+      "hint": "Control over personal data and who can view or collect it"
+    },
+    {
+      "word": "PLAGIARISM",
+      "hint": "Using someone else's work or ideas without proper credit"
+    },
+    {
+      "word": "ATTRIBUTION",
+      "hint": "Crediting the original creator or source of a work"
+    },
+    {
+      "word": "OPENNESS",
+      "hint": "Sharing educational resources with free access or permissive reuse"
+    },
+    {
+      "word": "REPOSITORY",
+      "hint": "Centralized place to store, share, and find learning materials"
+    },
+    {
+      "word": "ANALYTICS",
+      "hint": "Examining data patterns to understand usage or learning progress"
+    },
+    {
+      "word": "DASHBOARD",
+      "hint": "Visual display summarizing key metrics and status at a glance"
+    }
+  ],
+  "domains": [
+    {
+      "word": "ROBOTICS",
+      "hint": "Design and programming of physical machines that sense and act"
+    },
+    {
+      "word": "CYBERSECURITY",
+      "hint": "Protecting systems, networks, and data from digital attacks"
+    },
+    {
+      "word": "AUTOMATION",
+      "hint": "Using technology to run tasks with minimal human intervention"
+    },
+    {
+      "word": "ANALYTICS",
+      "hint": "Systematic analysis of data to uncover patterns and insights"
+    },
+    {
+      "word": "CLOUD",
+      "hint": "On-demand computing resources delivered over the internet"
+    },
+    {
+      "word": "INTERFACE",
+      "hint": "Shared boundary where users or systems interact with each other"
+    },
+    {
+      "word": "PROTOCOL",
+      "hint": "Agreed set of rules for formatting and transmitting data"
+    },
+    {
+      "word": "ENCRYPTION",
+      "hint": "Scrambling data so only authorized parties can read it"
+    },
+    {
+      "word": "BLOCKCHAIN",
+      "hint": "Distributed ledger recording transactions in linked blocks"
+    },
+    {
+      "word": "NEURAL",
+      "hint": "Relating to networks of interconnected nodes or biological neurons"
+    },
+    {
+      "word": "ARTIFICIAL",
+      "hint": "Made or simulated by humans rather than occurring naturally"
+    },
+    {
+      "word": "INTELLIGENCE",
+      "hint": "Ability to learn, reason, adapt, and solve problems"
+    },
+    {
+      "word": "MACHINE",
+      "hint": "Apparatus or system that performs tasks using power or code"
+    },
+    {
+      "word": "LEARNING",
+      "hint": "Gaining knowledge or skill through study, experience, or training"
+    },
+    {
+      "word": "VISION",
+      "hint": "Ability to perceive and interpret visual information"
+    },
+    {
+      "word": "LINGUISTICS",
+      "hint": "Scientific study of language structure, meaning, and use"
+    },
+    {
+      "word": "BIOINFORMATICS",
+      "hint": "Using computation and data analysis to study biological data"
+    },
+    {
+      "word": "QUANTUM",
+      "hint": "Relating to discrete packets or quantum-mechanical phenomena"
+    },
+    {
+      "word": "COMPUTING",
+      "hint": "Use of computers and algorithms to process information"
+    },
+    {
+      "word": "EDGE",
+      "hint": "Processing data closer to where it is generated rather than centrally"
+    },
+    {
+      "word": "IOT",
+      "hint": "Internet of Things: everyday devices connected to the internet"
+    },
+    {
+      "word": "SENSORS",
+      "hint": "Devices that detect physical changes like light, heat, or motion"
+    },
+    {
+      "word": "EMBEDDED",
+      "hint": "Computer system built into a larger device for a dedicated job"
+    },
+    {
+      "word": "TELEMETRY",
+      "hint": "Automated measurement and wireless transmission of remote data"
+    },
+    {
+      "word": "GRAPHICS",
+      "hint": "Visual images or designs generated or manipulated digitally"
+    },
+    {
+      "word": "RENDERING",
+      "hint": "Generating a final image or scene from a model or code"
+    },
+    {
+      "word": "VIRTUAL",
+      "hint": "Simulated computer environment experienced rather than physical"
+    },
+    {
+      "word": "AUGMENTED",
+      "hint": "Overlaying digital information onto the real-world view"
+    },
+    {
+      "word": "REALITY",
+      "hint": "Actual physical world or an immersive simulated experience"
+    },
+    {
+      "word": "METAVERSE",
+      "hint": "Concept of persistent, interconnected 3D virtual spaces"
+    },
+    {
+      "word": "DEVOPS",
+      "hint": "Practices uniting software development and IT operations"
+    },
+    {
+      "word": "CONTAINER",
+      "hint": "Lightweight package bundling code and dependencies to run reliably"
+    },
+    {
+      "word": "MICROSERVICES",
+      "hint": "Architecture splitting an app into small, independent services"
+    },
+    {
+      "word": "DISTRIBUTED",
+      "hint": "Spread across multiple networked computers working together"
+    },
+    {
+      "word": "PARALLEL",
+      "hint": "Executing multiple calculations or tasks simultaneously"
+    },
+    {
+      "word": "DATABASE",
+      "hint": "Organized store of data supporting queries and updates"
+    },
+    {
+      "word": "WAREHOUSE",
+      "hint": "Large central repository for historical reporting and analysis"
+    },
+    {
+      "word": "MINING",
+      "hint": "Extracting useful patterns from large datasets or validating blocks"
+    },
+    {
+      "word": "BIGDATA",
+      "hint": "Extremely large, complex datasets analyzed for trends"
+    },
+    {
+      "word": "STATISTICS",
+      "hint": "Science of collecting, analyzing, and interpreting numerical data"
+    },
+    {
+      "word": "CRYPTOGRAPHY",
+      "hint": "Techniques for secure communication and data protection"
+    },
+    {
+      "word": "FORENSICS",
+      "hint": "Investigating digital evidence to reconstruct incidents"
+    },
+    {
+      "word": "BIOMETRICS",
+      "hint": "Measuring unique physical or behavioral traits for identity"
+    },
+    {
+      "word": "AUTHENTICATION",
+      "hint": "Verifying the identity of a user, device, or system"
+    },
+    {
+      "word": "NETWORKING",
+      "hint": "Connecting systems so they can exchange data"
+    },
+    {
+      "word": "WIRELESS",
+      "hint": "Transmitting data without physical cables using radio or light"
+    },
+    {
+      "word": "SATELLITE",
+      "hint": "Object orbiting Earth used for relay, imaging, or navigation"
+    },
+    {
+      "word": "TELECOM",
+      "hint": "Transmission of information over distance via electronic means"
+    },
+    {
+      "word": "HUMAN",
+      "hint": "Relating to people and their needs, behavior, or perspective"
+    },
+    {
+      "word": "INTERACTION",
+      "hint": "Two-way exchange or communication between user and system"
+    }
+  ],
+  "fruits": [
+    {
+      "word": "YIELD",
+      "hint": "Amount of crop or fruit produced by a plant or harvest"
+    },
+    {
+      "word": "VEGETABLE",
+      "hint": "Edible plant part often savory rather than sweet like fruit"
+    },
+    {
+      "word": "BLOSSOM",
+      "hint": "Flower of a fruit tree or plant before fruit forms"
+    },
+    {
+      "word": "OUTGROWTH",
+      "hint": "Something that grows out from a plant or structure"
+    },
+    {
+      "word": "ORCHARD",
+      "hint": "Land planted with fruit or nut trees"
+    },
+    {
+      "word": "APPLE",
+      "hint": "Crisp round fruit that grows on trees"
+    },
+    {
+      "word": "BERRY",
+      "hint": "Small, juicy fruit such as a strawberry or blueberry"
+    },
+    {
+      "word": "PEAR",
+      "hint": "Fruit that is typically narrower at the stem and wider below"
+    },
+    {
+      "word": "PINEAPPLE",
+      "hint": "Tropical fruit with a spiky rind and sweet yellow flesh"
+    },
+    {
+      "word": "GRAPEFRUIT",
+      "hint": "Large, tangy citrus fruit with pink, red, or white pulp"
+    }
+  ],
+  "nature": [
+    {
+      "word": "WORLD",
+      "hint": "(with \"the\") Human collective existence; existence in general.",
+      "meaning": "(with \"the\") Human collective existence; existence in general.",
+      "meaningSource": "Free Dictionary API (dictionaryapi.dev)"
+    },
+    {
+      "word": "EXISTENCE",
+      "hint": "The state of being, existing, or occurring; beinghood.",
+      "meaning": "The state of being, existing, or occurring; beinghood.",
+      "meaningSource": "Free Dictionary API (dictionaryapi.dev)"
+    },
+    {
+      "word": "MACROCOSM",
+      "hint": "A complex structure, such as a society, considered as a single entity that contains numerous similar, smaller-scale structures.",
+      "meaning": "A complex structure, such as a society, considered as a single entity that contains numerous similar, smaller-scale structures.",
+      "meaningSource": "Free Dictionary API (dictionaryapi.dev)"
+    },
+    {
+      "word": "CREATION",
+      "hint": "Something created such as an invention or artwork.",
+      "meaning": "Something created such as an invention or artwork.",
+      "meaningSource": "Free Dictionary API (dictionaryapi.dev)"
+    },
+    {
+      "word": "WILD",
+      "hint": "The undomesticated state of a wild animal",
+      "meaning": "The undomesticated state of a wild animal",
+      "meaningSource": "Free Dictionary API (dictionaryapi.dev)"
+    }
+  ]
+}

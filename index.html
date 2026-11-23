@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Word Fix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1 id="title">Word Fix</h1>
+
+  <div id="stage">
+    <p id="error" class="error" hidden></p>
+
+    <section id="home">
+      <p id="rules"></p>
+      <h2>Your nickname</h2>
+      <div id="nicks" class="chips"></div>
+      <button id="reroll" type="button" class="ghost">Show other names</button>
+      <h2>Difficulty</h2>
+      <div id="levels" class="chips"></div>
+      <h2>Topic</h2>
+      <select id="domain" aria-label="Topic"></select>
+      <p id="playinfo" class="small"></p>
+      <button id="play" type="button" class="primary" disabled>Play</button>
+    </section>
+
+    <section id="game" hidden>
+      <div class="bar">
+        <span id="round"></span>
+        <button id="next" type="button" class="primary next-action" hidden>Next word</button>
+        <span id="score-label">Score: <b id="score">0</b></span>
+      </div>
+      <div id="timer-wrap" class="timer-wrap" role="timer" aria-live="off">
+        <div class="timer-label"><span id="timer" class="timer">30</span><span id="timer-unit">seconds left</span></div>
+        <div class="timer-track" aria-hidden="true"><div id="timer-bar" class="timer-bar"></div></div>
+      </div>
+      <div id="tiles" class="tiles"></div>
+      <p id="hint" class="small"></p>
+      <div id="opts" class="opts"></div>
+      <p id="msg" class="msg" aria-live="polite"></p>
+      <section id="vocabulary" class="vocabulary" aria-labelledby="vocabulary-title" aria-live="polite" hidden>
+        <div class="vocab-heading">
+          <div>
+            <h2 id="vocabulary-title">Vocabulary</h2>
+            <p id="vocab-word" class="vocab-word"></p>
+          </div>
+          <button id="pronounce" type="button" class="speak" aria-label="Listen to pronunciation">
+            <span aria-hidden="true">🔊</span><span>Listen</span>
+          </button>
+        </div>
+        <p><strong>Meaning:</strong> <span id="vocab-meaning"></span></p>
+        <p id="meaning-source" class="small"></p>
+        <p id="pronunciation-info" class="small"></p>
+      </section>
+    </section>
+
+    <section id="end" hidden>
+      <h2>Your score</h2>
+      <p class="big" id="final"></p>
+      <p id="summary"></p>
+      <p id="submitmsg"></p>
+      <button id="again" type="button" class="ghost">Play again</button>
+    </section>
+  </div>
+
+  <aside>
+    <h2>Leaderboard</h2>
+    <div id="tabs" class="chips"></div>
+    <ol id="rows"></ol>
+    <p id="boardmsg"></p>
+    <p id="modeinfo" class="small"></p>
+  </aside>
+</main>
+<script type="module" src="game.js"></script>
+</body>
+</html>

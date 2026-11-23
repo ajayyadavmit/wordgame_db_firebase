@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /leaderboard/{entryId} {
+      allow read: if true;
+
+      allow create: if request.auth != null
+        && validEntry(request.resource.data, entryId)
+        && request.resource.data.plays == 1;
+
+      allow update: if request.auth != null
+        && resource.data.uid == request.auth.uid
+        && validEntry(request.resource.data, entryId)
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.nick == resource.data.nick
+        && request.resource.data.difficulty == resource.data.difficulty
+        && request.resource.data.plays == resource.data.plays + 1
+        && request.resource.data.best >= resource.data.best;
+
+      function validEntry(data, id) {
+        return data.keys().hasOnly([
+            'uid', 'nick', 'difficulty', 'best', 'plays', 'domain', 'updated'
+          ])
+          && data.uid == request.auth.uid
+          && data.nick is string
+          && data.nick.matches('^[A-Za-z0-9]{3,24}$')
+          && data.difficulty in ['simple', 'medium', 'hard']
+          && id == data.nick + '_' + data.difficulty
+          && data.best is int
+          && data.best >= -20
+          && data.best <= 30
+          && data.plays is int
+          && data.plays >= 1
+          && data.domain is string
+          && data.domain.size() <= 30
+          && data.updated is timestamp
+          && data.updated == request.time;
+      }
+    }
+  }
+}
