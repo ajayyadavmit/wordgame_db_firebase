@@ -1,6 +1,6 @@
-# Word Fix — Firebase leaderboard edition
+# Word Fix — Firebase Leaderboard
 
-This is a separate copy of the Word Fix game. It keeps the word game and vocabulary UI, but saves and reads the shared leaderboard from **Cloud Firestore** instead of GitHub Issues or a JSON file.
+Saves the shared leaderboard from **Cloud Firestore** instead of GitHub Issues or a JSON file.
 
 ## What is included
 
@@ -8,7 +8,6 @@ This is a separate copy of the Word Fix game. It keeps the word game and vocabul
 - Firestore leaderboard documents, one nickname per difficulty.
 - Firebase anonymous sign-in so a browser can update only its own nickname records.
 - Firestore security rules in `firestore.rules`.
-- No service-account key or private server credential in the website.
 
 ## 1. Create and configure Firebase
 
@@ -46,17 +45,17 @@ GitHub Pages serves the frontend; Firebase Auth and Firestore handle the online 
 
 ## Security and cost notes
 
-- Never put a Firebase service-account/private key in this frontend. The web app config is public by design; the Firestore rules are the access control.
+- The web app config is public by design; the Firestore rules are the access control.
 - The leaderboard is public. Nicknames and scores are visible to visitors.
 - Anonymous sign-in and these rules prevent unauthenticated writes and edits to another browser identity's record. **They do not prove that a score was earned fairly**: a determined user can manipulate their own browser and submit a fabricated score within the permitted range. Do not use this client-only version for prizes, grades, or other high-trust scoring without a trusted backend that validates games.
-- Firebase's free quotas and limits can change. Review the current Firebase pricing and usage dashboard; configure budget/usage alerts where available.
+
 
 ## Word content
 
 Edit `words.json` to add words, hints, and meanings. The game uses a saved meaning when present and otherwise requests a definition from the Free Dictionary API after the answer. Pronunciation uses the browser's built-in speech synthesis.
 
 
-## NO need here several files like server.py in this firebase project
+## No need here several files like server.py in this firebase project
 This project only needs a static file server:
 That command serves the existing HTML, CSS, JavaScript, JSON, and Firebase configuration files directly in the browser. It does not replace Firebase or add a Django/Python backend.
 
