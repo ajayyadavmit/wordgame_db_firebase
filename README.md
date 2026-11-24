@@ -9,6 +9,30 @@ Saves the shared leaderboard from **Cloud Firestore** instead of GitHub Issues o
 - Firebase anonymous sign-in so a browser can update only its own nickname records.
 - Firestore security rules in `firestore.rules`.
 
+## Architecture
+
+```mermaid
+flowchart LR
+    Visitor[Player's browser]
+    Host[Static host<br/>GitHub Pages or local server]
+    App[Game frontend<br/>index.html, style.css, game.js]
+    Data[Game data<br/>config.json, words.json]
+    Auth[Firebase Authentication<br/>anonymous sign-in]
+    Firestore[(Cloud Firestore<br/>leaderboard)]
+    Dictionary[Free Dictionary API<br/>word meanings]
+
+    Visitor -->|opens game| Host
+    Host -->|serves static files| App
+    App -->|loads settings and words| Data
+    App -->|anonymous sign-in| Auth
+    App -->|reads leaderboard and saves scores| Firestore
+    Auth -->|user identity| App
+    App -.->|looks up missing meanings| Dictionary
+    Rules[firestore.rules] -.->|controls Firestore access| Firestore
+```
+
+The browser runs the game and talks directly to Firebase; the static host does not run a backend.
+
 ## 1. Create and configure Firebase
 
 1. Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
@@ -70,4 +94,3 @@ A server.py or custom Django server becomes necessary when you need server-side 
 The previous project likely had server-side responsibilities that this project does not. In this project, simpler is preferable: extra backend files would add deployment work, duplicate Firebase functionality, and expose unnecessary infrastructure.
 
 One important detail: python3 -m http.server is not a production server. It is mainly for local testing. For production, Firebase Hosting or a proper static host can serve the frontend.
-

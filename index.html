@@ -17,6 +17,9 @@
       <p id="rules"></p>
       <h2>Your nickname</h2>
       <div id="nicks" class="chips"></div>
+      <label for="custom-nick">Or enter a custom nickname</label>
+      <input id="custom-nick" type="text" maxlength="24" pattern="[A-Za-z0-9]{3,24}" autocomplete="nickname" aria-describedby="nickname-help">
+      <p id="nickname-help" class="small">Use 3-24 letters or numbers.</p>
       <button id="reroll" type="button" class="ghost">Show other names</button>
       <h2>Difficulty</h2>
       <div id="levels" class="chips"></div>

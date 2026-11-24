@@ -7,9 +7,13 @@ const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = rnd(i 
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 async function getJSON(url) { const r = await fetch(url, { cache: "no-store" }); if (!r.ok) throw new Error(url + " not found"); return r.json(); }
 
-let CFG, bank = {}, allWords = new Set(), nick = "", level = "", boardLevel = "", boardData = [], boardFailed = false, game = null, cloudError = null;
+let CFG, bank = {}, allWords = new Set(), nick = "", isCustomNick = false, level = "", boardLevel = "", boardData = [], boardFailed = false, game = null, cloudError = null;
 const meaningCache = new Map();
-try { nick = localStorage.getItem("wg_nick") || ""; } catch (e) {}
+const validNick = value => /^[A-Za-z0-9]{3,24}$/.test(value);
+try {
+  const savedNick = localStorage.getItem("wg_nick") || "";
+  if (validNick(savedNick)) nick = savedNick;
+} catch (e) {}
 
 // ---------- guest nickname (suggested by the program, no free typing) ----------
 function suggestNames() {
@@ -18,14 +22,20 @@ function suggestNames() {
   return [...s];
 }
 function markNick() {
-  for (const b of $("nicks").children) { const on = b.textContent === nick; b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); }
+  for (const b of $("nicks").children) { const on = !isCustomNick && b.textContent === nick; b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); }
   updatePlay();
 }
 function renderNicks() {
   const box = $("nicks"); box.innerHTML = "";
-  [...new Set([...(nick ? [nick] : []), ...suggestNames()])].slice(0, CFG.nicknames.suggestionsShown).forEach(n => {
+  [...new Set([...(nick && !isCustomNick ? [nick] : []), ...suggestNames()])].slice(0, CFG.nicknames.suggestionsShown).forEach(n => {
     const b = el("button", "chip", n); b.type = "button";
-    b.onclick = () => { nick = n; try { localStorage.setItem("wg_nick", n); } catch (e) {} markNick(); };
+    b.onclick = () => {
+      $("custom-nick").value = "";
+      isCustomNick = false;
+      nick = n;
+      try { localStorage.setItem("wg_nick", n); } catch (e) {}
+      markNick();
+    };
     box.appendChild(b);
   });
   markNick();
@@ -283,6 +293,15 @@ async function init() {
     $("pronunciation-info").textContent = "Audio pronunciation is not supported in this browser.";
   }
   $("domain").onchange = updatePlay;
+  $("custom-nick").oninput = () => {
+    isCustomNick = true;
+    nick = validNick($("custom-nick").value) ? $("custom-nick").value : "";
+    try {
+      if (nick) localStorage.setItem("wg_nick", nick);
+      else localStorage.removeItem("wg_nick");
+    } catch (e) {}
+    markNick();
+  };
   $("again").onclick = () => { show("home"); renderNicks(); refreshTopics(); };
   $("reroll").onclick = renderNicks;
   $("next").onclick = () => { if (game.i >= game.items.length - 1) finish(); else { game.i++; ask(); } };
